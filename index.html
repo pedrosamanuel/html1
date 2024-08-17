@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1</title>
+</head>
+<body>
+    <!--Encabezado y titulos-->
+    <header>
+        <div>
+            <h1 id="estructura">1. Estructura Básica del Documento HTML></h1>
+            <p>Este documento HTML tiene una estructura básica que incluye la 
+                declaración de DOCTYPE, etiquetas de metadator y un título.
+            </p>
+        </div>
+        <div>
+            <h1>2. Encabezado y propiedades del texto</h1>
+            <h2>soy un h2</h2>
+            <h3>soy un h3</h3>
+            <h4>soy un h4</h4>
+            <h5>soy un h5</h5>
+            <h6>soy un h6</h6>
+            <p><b>texto en negrita</b><br>
+                <em>texto en cursiva</em><br>
+                <mark>texto resaltado</mark><br>
+                <u>texto subrayado</u>
+            </p>
+        </div>
+    </header>
+    <!--Secciones y agrupaciones-->
+    <main>
+        <div><h1>3. Divisiones y agrupaciones de contenido</h1></div>
+        <section>
+            <div>
+                <h3>Seccion 1</h3>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Seccion 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>4. Enlaces y listas</h1>
+                <p>Visita nuestro <a href="https://www.google.com/" target="_blank">sitio web</a> 
+                    para más información</p>
+                <h4>Enlaces internos</h4>
+                <li>
+                    <ul><a href="#estructura">Ir a estructura</a></ul>
+                    <ul><a href="#multimedia">Ir a multimedia</a></ul>
+                    <ul><a href="#formulario">Ir a formulario</a></ul>
+                </li>
+                <li>
+                    <ul>Primer elemento de una lista desordenada</ul>
+                    <ul>Segundo elemento de una lista desordenada</ul>
+                </li>
+                <li>
+                    <ol>Primer elemento de una lista ordenada</ol>
+                    <ol>Segundo elemento de una lista ordenada</ol>
+                </li>
+            </div>
+        </section>
+        <section>
+            <div id="multimedia">
+                <img src="https://bienbosteros.ar/wp-content/uploads/2023/11/Oposicion-macrismo-filtro-bombonera.jpg" alt="la bombonera" width="200px" height="200px">
+                <video src="https://videos.pexels.com/video-files/4594919/4594919-uhd_2732_1440_25fps.mp4" width="200px" height="200px" controls></video>
+                <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg" controls></audio>
+            </div>
+        </section>
+        <section>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>columna 1</th>
+                            <th>columna 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>dato 1</td>
+                            <td>dato 2</td>
+                        </tr>
+                        <tr>
+                            <td>dato 3</td>
+                            <td>dato 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div id="formulario">
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text">
+                    <label>Email:</label>
+                    <input type="email">
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
